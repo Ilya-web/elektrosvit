@@ -6,6 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Elektrosvit</title>
 
+  <!--  only home page jquery.fullpage.css-->
+  <link rel="stylesheet" href="libs/fullPage.js/dist/jquery.fullpage.css">
+  <!--  only home page jquery.fullpage.css-->
+
+
   <link rel="stylesheet" href="css/styles.min.css">
 </head>
 
@@ -22,10 +27,10 @@
         <nav class="header_nav">
           <ul>
             <li>
-              <a href="#">Про нас</a>
+              <a href="#">About Us</a>
             </li>
             <li class="dropdown-item">
-              <a href="#">Продукція</a>
+              <a href="#">Products</a>
               <ul class="dropdown-menu">
                 <li>
                   <a href="#">Високовольтне обладнання 35-110кВ</a>
@@ -45,7 +50,7 @@
               </ul>
             </li>
             <li class="dropdown-item">
-              <a href="#">Сервіси</a>
+              <a href="#">Services</a>
 
               <ul class="dropdown-menu bigDropMenu">
                 <li>
@@ -82,19 +87,18 @@
               </ul>
             </li>
             <li>
-              <a href="#">Блог</a>
+              <a href="#">Blog</a>
             </li>
             <li>
-              <a href="#">Контакти</a>
+              <a href="#">Contacts</a>
             </li>
           </ul>
         </nav>
         <div class="header_lang">
           <select class="select">
-            <option>Українська</option>
             <option>Ukrainian</option>
             <option>Russian</option>
-            <option>English</option>
+            <option selected>English</option>
           </select>
         </div>
       </div>
@@ -131,10 +135,8 @@
       <div class="forPartners_line">
         <div class="container">
           <div class="forPartners_wrapImg">
-            <div class="forPartners_bg">
-              <div class="forPartners_img">
-                <img src="images/Company.svg" alt="">
-              </div>
+            <div class="forPartners_img">
+              <img src="images/Company.svg" alt="">
             </div>
           </div>
         </div>
@@ -142,35 +144,34 @@
     </section>
 
     <section class="section ourProducts">
-      <div class="ourProducts-hidden">
-        <div class="container">
-          <div class="h1 text-center text-shadow">Our products and services</div>
-        </div>
-        <div class="ourProducts_line">
-          <div class="ourProducts_container">
-            <div class="ourProducts-items">
-              <div class="ourProducts-item">
-                <div class="ourProducts-item_img">
-                  <img src="images/ourProducts/img-3.svg" alt="">
-                </div>
-                <div class="ourProducts-item_title">Transformer substations</div>
+      <div class="container">
+        <div class="h1 text-center text-shadow">Our products and services</div>
+      </div>
+      <div class="ourProducts_line">
+        <div class="ourProducts_container">
+          <div class="ourProducts-items">
+            <div class="ourProducts-item">
+              <div class="ourProducts-item_img">
+                <img src="images/ourProducts/img-3.svg" alt="">
               </div>
-              <div class="ourProducts-item">
-                <div class="ourProducts-item_img">
-                  <img src="images/ourProducts/img-1.svg" alt="">
-                </div>
-                <div class="ourProducts-item_title">Renewable energy</div>
+              <div class="ourProducts-item_title">Transformer substations</div>
+            </div>
+            <div class="ourProducts-item">
+              <div class="ourProducts-item_img">
+                <img src="images/ourProducts/img-1.svg" alt="">
               </div>
-              <div class="ourProducts-item">
-                <div class="ourProducts-item_img">
-                  <img src="images/ourProducts/img-2.svg" alt="">
-                </div>
-                <div class="ourProducts-item_title">Switchgears up to 150 kV</div>
+              <div class="ourProducts-item_title">Renewable energy</div>
+            </div>
+            <div class="ourProducts-item">
+              <div class="ourProducts-item_img">
+                <img src="images/ourProducts/img-2.svg" alt="">
               </div>
+              <div class="ourProducts-item_title">Switchgears up to 150 kV</div>
             </div>
           </div>
+
+          <div class="ourProducts_circle"></div>
         </div>
-        <div class="ourProducts_footer"></div>
       </div>
     </section>
 
@@ -183,8 +184,10 @@
             <div class="swiper-slide">
               <div class="ourTeam-item">
                 <div class="ourTeam-item_manager">
-                  <div class="ourTeam-item_img">
-                    <img src="images/team/img-1.jpg" alt="Андрій Гаранін">
+                  <div class="ourTeam-item_border">
+                    <div class="ourTeam-item_img">
+                      <img src="images/team/img-1.jpg" alt="Андрій Гаранін">
+                    </div>
                   </div>
                   <div class="ourTeam-item_name">Андрій Гаранін</div>
                 </div>
@@ -199,9 +202,12 @@
             <div class="swiper-slide">
               <div class="ourTeam-item">
                 <div class="ourTeam-item_manager">
-                  <div class="ourTeam-item_img">
-                    <img src="images/team/img-2.jpg" alt="Олександр Контракевич">
+                  <div class="ourTeam-item_border">
+                    <div class="ourTeam-item_img">
+                      <img src="images/team/img-2.jpg" alt="Олександр Контракевич">
+                    </div>
                   </div>
+
                   <div class="ourTeam-item_name">Олександр Контракевич</div>
                 </div>
                 <div class="ourTeam-item_desc">
@@ -216,8 +222,10 @@
             <div class="swiper-slide">
               <div class="ourTeam-item">
                 <div class="ourTeam-item_manager">
-                  <div class="ourTeam-item_img">
-                    <img src="images/team/img-3.jpg" alt="Андрій Штогрин">
+                  <div class="ourTeam-item_border">
+                    <div class="ourTeam-item_img">
+                      <img src="images/team/img-3.jpg" alt="Андрій Штогрин">
+                    </div>
                   </div>
                   <div class="ourTeam-item_name">Андрій Штогрин</div>
                 </div>
@@ -280,7 +288,8 @@
     </section>
 
     <section class="section contacts">
-      <div class="contacts-hidden">
+
+      <div class="contacts-line">
         <div class="container">
           <div class="h1 text-shadow text-center">Contacts</div>
         </div>
@@ -299,8 +308,10 @@
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="contacts-line">
+      <div class="contact-phones-line">
+        <div class="container">
           <div class="contact-phones">
             <div class="contact-phones_item">
               <div class="contact-phones_title">General questions</div>
@@ -321,6 +332,7 @@
           </div>
         </div>
       </div>
+
     </section>
 
     <section class="section feedback">
@@ -337,12 +349,12 @@
           <form action="#">
             <div class="feedback-content_row">
               <div class="input-site">
-                <input type="text" placeholder="Topic">
+                <input type="email" placeholder="Email">
               </div>
             </div>
             <div class="feedback-content_row">
               <div class="input-site">
-                <input type="text" placeholder="Phone or Email">
+                <input type="text" placeholder="Topic">
               </div>
             </div>
             <div class="feedback-content_row">
@@ -373,6 +385,12 @@
       </div>
     </div>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+  <!--  only home page jquery.fullpage.min.js-->
+  <script src="libs/fullPage.js/dist/jquery.fullpage.min.js"></script>
+  <!--  only home page jquery.fullpage.min.js-->
 
   <script src="js/main.min.js"></script>
 

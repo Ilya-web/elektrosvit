@@ -36,8 +36,6 @@
     "webpack-stream": "^6.1.1"
   },
   "dependencies": {
-    "jquery": "^3.5.1",
-    "fullpage.js": "^4.0.10",
     "swiper": "^8.3.2"
   }
 }
